@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "HDC1080DMBR")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/HDC1080DMBR.kicad_sym")(options "")(descr ""))
+  (lib (name "TCRT5000L")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/TCRT5000L.kicad_sym")(options "")(descr ""))
+)
