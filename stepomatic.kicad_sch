@@ -3086,7 +3086,7 @@
     (property "Reference" "C2" (id 0) (at 166.37 43.1799 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "CL10A226MQ8NRNC" (id 1) (at 166.37 45.7199 90)
+    (property "Value" "22u" (id 1) (at 166.37 45.7199 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "footprint:C0603" (id 2) (at 172.72 44.45 0)
@@ -3465,7 +3465,7 @@
     (property "Reference" "J2" (id 0) (at 226.314 135.8901 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x05" (id 1) (at 226.314 133.3501 0)
+    (property "Value" "28BYJ-48" (id 1) (at 226.314 133.3501 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "footprint:CONN-TH_B5B-XH-A-LF-SN" (id 2) (at 223.52 134.62 0)
@@ -3814,7 +3814,7 @@
       (reference "C1") (unit 1) (value "100nF") (footprint "footprint:C0402")
     )
     (path "/8eed71b8-3cc5-4192-9715-009efe80de49"
-      (reference "C2") (unit 1) (value "CL10A226MQ8NRNC") (footprint "footprint:C0603")
+      (reference "C2") (unit 1) (value "22u") (footprint "footprint:C0603")
     )
     (path "/22c9b238-cf51-4589-95ce-201c0b7ead0f"
       (reference "C3") (unit 1) (value "100u") (footprint "footprint:C1206")
@@ -3850,7 +3850,7 @@
       (reference "J1") (unit 1) (value "I2C") (footprint "footprint:CONN-SMD_BM04B-SRSS-TB")
     )
     (path "/daa4d8a1-8f94-4834-94ac-ea4f5a8e3b41"
-      (reference "J2") (unit 1) (value "Conn_01x05") (footprint "footprint:CONN-TH_B5B-XH-A-LF-SN")
+      (reference "J2") (unit 1) (value "28BYJ-48") (footprint "footprint:CONN-TH_B5B-XH-A-LF-SN")
     )
     (path "/c93b24b6-f087-4eeb-a88b-a9a714a140bb"
       (reference "J4") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
