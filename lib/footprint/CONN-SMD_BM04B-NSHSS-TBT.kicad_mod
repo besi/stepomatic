@@ -1,4 +1,4 @@
-(module "CONN-SMD_BM04B-NSHSS-TBT" (layer F.Cu) (tedit 65C7B25E)
+(module "CONN-SMD_BM04B-NSHSS-TBT" (layer F.Cu) (tedit 65CA532C)
   (descr "CONN-SMD_BM04B-NSHSS-TBT footprint")
   (tags "CONN-SMD_BM04B-NSHSS-TBT footprint C545725")
   (attr smd)
