@@ -3816,9 +3816,6 @@
   (gr_text "JLCJLCJLCJLC" (at 149.352 98.806) (layer "B.SilkS") (tstamp 045cbf89-3b80-42ba-b8ea-0b4a0cf5d059)
     (effects (font (size 0.7 0.7) (thickness 0.1)) (justify left mirror))
   )
-  (gr_text "TODO: \n\n- Add Version\n- Add website\n- Add github.com\n- Add Date\n- Add PCB Art" (at 107.95 48.895) (layer "F.SilkS") (tstamp d8d12fa6-3a65-4367-9c99-d6bb88642dcd)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
-  )
 
   (segment (start 106.934 87.503) (end 106.934 86.741) (width 0.6) (layer "F.Cu") (net 1) (tstamp 0695ceab-883b-45bd-8dcb-29707ac26e14))
   (segment (start 143.522788 86.8) (end 141.475 86.8) (width 0.6) (layer "F.Cu") (net 1) (tstamp 0de3d87c-3f02-409f-8308-75dfece2a1c2))
