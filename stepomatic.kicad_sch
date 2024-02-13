@@ -2680,7 +2680,7 @@
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (id 3) (at 191.77 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (property "LCSC" "DNP" (id 5) (at 189.23 38.1 0)
+    (property "LCSC" "C2843785" (id 5) (at 189.23 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 472d6790-a926-4a58-96d2-99084d824bc8))
