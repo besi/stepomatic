@@ -1478,7 +1478,7 @@
     (fp_line (start 0.280264 -0.709627) (end 1.080239 -0.709627) (layer "F.SilkS") (width 0.254001) (tstamp fbd29c67-2bb8-40d3-941c-d200a3cfbddb))
     (fp_line (start -0.295631 -0.715443) (end -1.095631 -0.715443) (layer "F.SilkS") (width 0.254001) (tstamp ffe0fb2b-4320-4675-9ccc-3c8af8ce1927))
     (fp_arc (start -1.405512 -0.405613) (mid -1.314765 -0.624696) (end -1.095682 -0.715443) (layer "F.SilkS") (width 0.254001) (tstamp 21f7b1e5-275d-4a14-81a6-7f6d30497190))
-    (fp_arc (start 1.390018 0.400203) (mid 1.299267 0.619284) (end 1.080188 0.710033) (layer "F.SilkS") (width 0.254001) (tstamp a390d02b-bf76-4be1-8cc9-92d349456607))
+    (fp_arc (start 1.390018 0.400203) (mid 1.299267 0.61928) (end 1.080188 0.710033) (layer "F.SilkS") (width 0.254001) (tstamp a390d02b-bf76-4be1-8cc9-92d349456607))
     (fp_arc (start -1.095682 0.704216) (mid -1.314773 0.61346) (end -1.405511 0.394362) (layer "F.SilkS") (width 0.254001) (tstamp b50b60cc-3b1a-462c-be45-8e42303cac5d))
     (fp_arc (start 1.080188 -0.709627) (mid 1.299286 -0.618875) (end 1.390018 -0.399772) (layer "F.SilkS") (width 0.254001) (tstamp bf80aeae-9e01-4ea3-b694-61c447591cfb))
     (fp_circle (center -0.800102 0.400051) (end -0.77013 0.400051) (layer "F.SilkS") (width 0.059995) (fill none) (tstamp 32e8fd35-09a4-4b57-bfd9-73df589929ec))
@@ -1817,7 +1817,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a0913776-31b6-4304-84c3-30c71629e8c9)
     )
-    (fp_text value "USB_B_Micro" (at 0.170278 4.688035 90) (layer "F.SilkS")
+    (fp_text value "USB_B_Micro" (at 0.170278 4.688035 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 84d25dc3-9b39-4cd3-9332-8bd47bb7524a)
     )
