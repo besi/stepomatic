@@ -10,4 +10,7 @@
   (lib (name "0603WAF2200T5E")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/0603WAF2200T5E.kicad_sym")(options "")(descr "220Ohm"))
   (lib (name "0603WAF2003T5E")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/0603WAF2003T5E.kicad_sym")(options "")(descr "200kOhm"))
   (lib (name "B5B-XH-A_(LF)(SN)")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/B5B-XH-A_(LF)(SN).kicad_sym")(options "")(descr "motor connector"))
+  (lib (name "AMS1117-3_3")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/AMS1117-3_3.kicad_sym")(options "")(descr ""))
+  (lib (name "TS-1187A-B-A-B")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/TS-1187A-B-A-B.kicad_sym")(options "")(descr ""))
+  (lib (name "CL31A107MQHNNNE")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/CL31A107MQHNNNE.kicad_sym")(options "")(descr ""))
 )
