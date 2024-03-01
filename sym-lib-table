@@ -16,4 +16,5 @@
   (lib (name "CL31A107MQHNNNE")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/CL31A107MQHNNNE.kicad_sym")(options "")(descr ""))
   (lib (name "0603WAF2002T5E")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/0603WAF2002T5E.kicad_sym")(options "")(descr ""))
   (lib (name "0603WAF1002T5E")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/0603WAF1002T5E.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812MINI-HS")(type "KiCad")(uri "${KIPRJMOD}/lib/symbol/SK6812MINI-HS.kicad_sym")(options "")(descr ""))
 )
