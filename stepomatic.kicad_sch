@@ -3155,7 +3155,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 191.77 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 0ded7c98-d428-47e1-85e3-565fa344dfef)
     (property "Reference" "JP4" (at 179.07 74.93 0)
       (effects (font (size 1.27 1.27)))
