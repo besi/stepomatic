@@ -1344,7 +1344,7 @@
     (path "/0ded7c98-d428-47e1-85e3-565fa344dfef")
     (attr exclude_from_pos_files)
     (net_tie_pad_groups "1, 2")
-    (fp_text reference "JPe" (at 0 -1.8 90) (layer "F.SilkS") hide
+    (fp_text reference "JP4" (at 0 -1.8 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 782883b4-298a-4f79-adc8-d8e90f69709e)
     )
@@ -3901,7 +3901,7 @@
     (property "ki_keywords" "C2922787")
     (path "/d039d441-a0a3-4054-8041-1ad528f43095")
     (attr smd)
-    (fp_text reference "U2" (at -0.78349 -6) (layer "F.SilkS")
+    (fp_text reference "U2" (at -0.01186 0.016312 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e30a41b0-85c1-4470-ae47-f43c6f147477)
     )
