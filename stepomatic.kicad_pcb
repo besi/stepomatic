@@ -155,7 +155,7 @@
     (property "ki_description" "Open Hardware logo, small")
     (property "ki_keywords" "Logo")
     (path "/3f6bdad5-fe50-4269-851a-bc031b1ed438")
-    (attr exclude_from_pos_files)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "OSHW1" (at 0 0 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp eeea6f2a-145a-4157-9d1c-6eb7001e1a78)
