@@ -647,9 +647,11 @@
     (property "LCSC" "C25804")
     (property "Sheetfile" "stepomatic.kicad_sch")
     (property "Sheetname" "")
+    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "ki_keywords" "C25804")
     (path "/45e7279d-742c-47ff-ab93-b98af6fddad7")
-    (attr smd)
+    (attr smd exclude_from_bom)
     (fp_text reference "R7" (at 0 -2.660605) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1f8b68db-b3fb-45fc-8dab-5a054d987b44)

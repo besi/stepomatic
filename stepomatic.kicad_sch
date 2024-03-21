@@ -2945,6 +2945,11 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 75f5f386-deeb-4dae-a53b-b27e27d04809)
   )
+  (text "The ESP-07 needs a 10k pull down on GPIO15 in order to boot. \nHowever the darlington input also has an array \nof resistors to GND that are around 12k"
+    (at 97.79 139.7 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 79c1d629-cd8c-4133-b368-3fbe34b68cf1)
+  )
   (text "Motor" (at 129.54 86.36 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 7e22387d-03ba-4902-be62-ae8d998d5bfd)
@@ -4111,7 +4116,7 @@
   )
 
   (symbol (lib_id "0603WAF1002T5E:0603WAF1002T5E") (at 93.98 127 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 45e7279d-742c-47ff-ab93-b98af6fddad7)
     (property "Reference" "R7" (at 88.9 125.73 90)
       (effects (font (size 1.27 1.27)) (justify right))
