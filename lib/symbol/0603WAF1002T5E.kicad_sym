@@ -6,7 +6,7 @@
     (property "Value" "0603WAF1002T5E" (id 1) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "footprint:R0603" (id 2) (at 0 -10.16 0)
+    (property "Footprint" "footprints:R0603" (id 2) (at 0 -10.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.mouser.in/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_11-1669912.pdf" (id 3) (at -2.286 0.127 0)
@@ -40,5 +40,4 @@
       )
     )
   )
-
 )
