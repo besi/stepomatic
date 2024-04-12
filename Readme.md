@@ -1,5 +1,7 @@
 # Stepomatic
 
+![](stepomatic.png)
+
 ## JLC Componennts
 
     # Put this in your ~/.zshrc or ~/.bashrc
