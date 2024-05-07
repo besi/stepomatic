@@ -1,9 +1,28 @@
+# ADC
+from machine import ADC
+adc = ADC(0)
+print(adc.read())
+
+
 # Neopixel does not currently work
 import neopixel
 from machine import Pin
 np = neopixel.NeoPixel(Pin(16),1)
 np.fill((100,100,100))
 np.write()
+
+
+# Read temperature and Humidity
+from machine import Pin, SoftI2C
+from hdc1080 import HDC1080
+
+scl = Pin(5, Pin.IN, Pin.PULL_UP)
+sda = Pin(4, Pin.IN, Pin.PULL_UP)
+i2c = SoftI2C(scl,sda)
+temp = HDC1080(i2c)
+print(temp.temperature())
+print(temp.humidity())
+
 
 # Nod hello
 import machine
@@ -26,6 +45,8 @@ dir = dir * -1
 stepper.step(FULL_ROTATION/10, dir)
 
 while True:
+    # Rotate in steps
+    # Change direction when button is pressed
     stepper.step(FULL_ROTATION/10, dir)
     time.sleep(1)
     if mode() == ACTIVE:
