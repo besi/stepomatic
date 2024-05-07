@@ -11,7 +11,7 @@
     jlc C82227
 
 
-# Acknoledgements
+# Acknowledgments
 
 - Special thanks to Valentyna M. for designing the pcb artwork.
 - The free font [Dexotick](https://www.behance.net/dhanstudio) was used for the pcb artwork.
