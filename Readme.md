@@ -13,8 +13,6 @@
 
 # Acknoledgements
 
-Special thanks to Valentyna M. for designing the pcb artwork.
-
-The free font [Dexotick](https://www.behance.net/dhanstudio) was used for the pcb artwork.
-
-[JLC2KiCadLib](https://pypi.org/project/JLC2KiCadLib) was used for downloading the footprints for the LCSC footprints
+- Special thanks to Valentyna M. for designing the pcb artwork.
+- The free font [Dexotick](https://www.behance.net/dhanstudio) was used for the pcb artwork.
+- [JLC2KiCadLib](https://pypi.org/project/JLC2KiCadLib) was used for downloading the footprints for the LCSC footprints
