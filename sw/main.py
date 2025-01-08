@@ -1,7 +1,10 @@
 # ADC
+from machine import Pin
 from machine import ADC
 adc = ADC(0)
-print(adc.read())
+ir = Pin(2,Pin.OUT)
+ir.value(0) # Enable IR diode so that we can receive what is reflected back
+print(f"Distance Sensor: {adc.read()}")
 
 
 # Neopixel does not currently work
@@ -20,14 +23,13 @@ scl = Pin(5, Pin.IN, Pin.PULL_UP)
 sda = Pin(4, Pin.IN, Pin.PULL_UP)
 i2c = SoftI2C(scl,sda)
 temp = HDC1080(i2c)
-print(temp.temperature())
-print(temp.humidity())
+print(f"Temperature {temp.temperature()}°C")
+print(f"Humidity {temp.humidity()}%")
 
 
 # Nod hello
 import machine
 import time
-from machine import Pin
 
 from uln2003 import Stepper, HALF_STEP, FULL_STEP, FULL_ROTATION
 from machine import Pin
