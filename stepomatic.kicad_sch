@@ -2998,6 +2998,10 @@
     (uuid fcadc113-7a54-4bcb-b760-46500b0c7cd5)
   )
 
+  (text "WARNING: Neopixel on \n  GPIO16 won't work" (at 68.58 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 021448f4-020f-4070-9ad1-3abf10ccf07f)
+  )
   (text "POWER" (at 201.93 25.4 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 070fea9d-29a4-4461-91fb-bcecae26910b)
