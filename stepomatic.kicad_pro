@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.5,
-          "width": 1.0
+          "drill": 3.2,
+          "height": 3.2,
+          "width": 3.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -60,10 +60,7 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|118922354|88285249|9213961a-9123-470b-9533-e88024402bb8|18a3c922-cba8-4c93-905a-43adaca2817a",
-        "clearance|148914301|87856660|eceabb34-7e1a-4893-85b9-e5adb9ea7cf6|844b761c-e64a-4d05-89f8-32d1696cb2ed",
-        "courtyards_overlap|147364302|86357161|71a72f0f-9936-4087-b3ea-2da340d579bb|cc1d663b-e1ad-454a-a9a0-55929e0037d4",
-        "footprint_type_mismatch|147327485|82127006|71a72f0f-9936-4087-b3ea-2da340d579bb|00000000-0000-0000-0000-000000000000"
+        "courtyards_overlap|147369301|86362160|71a72f0f-9936-4087-b3ea-2da340d579bb|cc1d663b-e1ad-454a-a9a0-55929e0037d4"
       ],
       "meta": {
         "version": 2
@@ -124,9 +121,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1778,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.4,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -188,7 +185,12 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        0.3,
+        0.4,
+        0.5,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -451,7 +453,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "footprint"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
