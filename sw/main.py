@@ -4,7 +4,7 @@ from machine import ADC
 adc = ADC(0)
 ir = Pin(2,Pin.OUT)
 ir.value(0) # Enable IR diode so that we can receive what is reflected back
-print(f"Distance Sensor: {adc.read()}")
+print(adc.read())
 
 
 # Neopixel does not currently work
