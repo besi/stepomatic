@@ -1,6 +1,29 @@
 # Stepomatic
 
+Wifi-enabled 28BYJ-48 stepper motor driver.
+
 ![](stepomatic.png)
+
+
+## Pinout
+
+| Function   | Pin    |
+|:-----------|-------:|
+| Motor 1    | 13     |
+| Motor 2    | 12     |
+| Motor 3    | 14     |
+| Motor 4    | 15     |
+| SDA        | 4      |
+| SCL        | 5      |
+| Mode       | 0      |
+| Neopixel   | 16     |
+| Enable IR  | 2      |
+| Distance   | ADC(0) |
+
+The IR diode can be enabled by pulling `IO2` to `0`.
+
+The SDA and SCL need to be pulled high in software.
+
 
 ## Flashing
 
