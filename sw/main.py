@@ -34,7 +34,7 @@ import time
 from uln2003 import Stepper, HALF_STEP, FULL_STEP, FULL_ROTATION
 from machine import Pin
 
-stepper = Stepper(HALF_STEP, Pin(13, Pin.OUT), Pin(12, Pin.OUT), Pin(14, Pin.OUT), Pin(15, Pin.OUT), delay=.003 )  
+stepper = Stepper(HALF_STEP, Pin(13, Pin.OUT), Pin(12, Pin.OUT), Pin(14, Pin.OUT), Pin(15, Pin.OUT), delay=.0015 )  
 mode = Pin(0, Pin.IN)
 
 ROTATIONS = 1.33333
