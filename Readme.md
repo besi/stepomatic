@@ -20,3 +20,7 @@ The used ESP-07 chip uses 1MB of flash so make sure to flash it with the [1MB fl
 - Special thanks to Valentyna M. for designing the pcb artwork.
 - The free font [Dexotick](https://www.behance.net/dhanstudio) was used for the pcb artwork.
 - [JLC2KiCadLib](https://pypi.org/project/JLC2KiCadLib) was used for downloading the footprints for the LCSC footprints
+
+## Known issues
+
+The Neopixel on Pin 16 does not work since that Pin has some limitations and neither supports PWM or I2C.
